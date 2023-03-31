@@ -17,7 +17,7 @@ export default function Login() {
             ) : (
                 <main className={styles.main}>
                     <div className={styles.header}>
-                        <h1>Signed in as {session.user.name}</h1>
+                        <h1>Signed in as {session?.user?.name}</h1>
                         <button className='btn btn-secondary' onClick={() => signOut()}>Sign out</button>
                     </div>
                 </main>

@@ -28,7 +28,7 @@ export default function Navbar() {
                                 </ul>
                             </li>
                         </ul>
-                        <Link className="btn btn-primary" href="/login">Login</Link>
+                        <Link className="btn btn-primary" href="/api/auth/signin">Login</Link>
                     </div>
                 </div>
             </nav>

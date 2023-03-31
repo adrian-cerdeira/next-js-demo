@@ -1,7 +1,7 @@
 import { useSession } from "next-auth/react";
 import styles from "../styles/Home.module.css";
 
-export default function Login() {
+export default function Profile() {
     const { data: session } = useSession();
     return (
         <div className={styles.container}>
